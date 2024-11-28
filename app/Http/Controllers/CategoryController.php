@@ -44,7 +44,7 @@ class CategoryController extends Controller
         return response()->json(['category' => $category], 200);
     }
     /**
-     * store User.
+     * store catgeory.
      *
      * @return \Illuminate\Http\JsonResponse
      */

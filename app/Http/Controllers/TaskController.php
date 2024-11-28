@@ -66,7 +66,7 @@ class TaskController extends Controller
         return response()->json(['task' => $task], 200);
     }
     /**
-     * store User.
+     * store task.
      *
      * @return \Illuminate\Http\JsonResponse
      */
